@@ -1,0 +1,11 @@
+# Entrada de datos
+print('\n' + ('-' * 80))
+print("Entrada de datos\n")
+_user_code = input("_user_code = input('Código : ')          = ")
+user_name = input("user_name = input('Nombre : ')           = ")
+user_lastname = input("user_lastname = input('Apellido : ')     = ")
+user_age = input("user_age = input('Edad : ')              = ")
+user_height = input("user_height = input('Estatura : ')       = ")
+user_blood_gr = input("user_blood_gr = input('Grp sang : ')     = ")
+user_blood_tp = input("user_blood_tp = input('Tip sang : ')     = ")
+user_is_activate = input("user_is_activate = input('¿Activo? : ')  = ")
