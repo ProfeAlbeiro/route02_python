@@ -15,11 +15,10 @@ print()
 #          se usan las estructuras de control: Secuencial, condicional, repetición.
 	
 # Salida de Datos. Resultado(s).
-print("     user_name        = Albeiro")
-print("     user_lastname    = Ramos")
-print("     user_age         = 40")
-print("     user_height      = 1.72")
-print("     user_blood_gr    = O")
-print("     user_blood_tp    = +")
-print("     user_is_activate = True")
+print("     Code            : 1")
+print("     name            : Albeiro")
+print("     first_number    : 5")
+print("     second_number   : 9.3")
+print("     result          : 14.3")
+print("     return_to       : True")
 print()
