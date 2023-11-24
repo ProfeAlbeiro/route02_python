@@ -1,31 +1,25 @@
-# Imprimir en pantalla
-print('-' * 90)
+# Descripción del Objetivo o Problema a resolver, organizado como Sistema [Entradas, Proceso y Salidas]
+print()
 print('Imprimir en pantalla')
 print()
-print("     print('Nombre   : Edwin')       =       Nombre   : Edwin")
-print("     print('Apellido : Ramos')       =       Apellido : Ramos")
-print("     print('Edad     : 40')          =       Edad     : 40")
-print("     print('Estatura : 1.72')        =       Estatura : 1.72")
-print("     print('Grp sang : O')           =       Grp sang : O")
-print("     print('Tip sang : +')           =       Tip sang : +")
-print("     print('¿Activo? : True')        =       ¿Activo? : True")
-
-# Comentarios
-'''
-Varias líneas
-de código
-comentadas con 
-comilla sencilla
-'''
-
-"""
-varias líneas
-de código 
-comentadas con
-comilla doble
-tres veces
-"""
-
-print()
-print('-' * 90)
+	
+# Declarar variables, constantes y/o arreglos.
+	
+# Dimensionar arreglos.
+	
+# Iniciar variables, constantes y/o arreglos
+	
+# Entrada de Datos: Pueden ser solicitados o no
+	
+# Proceso: Determinar los requerimientos y validaciones. Generalmente,	
+#          se usan las estructuras de control: Secuencial, condicional, repetición.
+	
+# Salida de Datos. Resultado(s).
+print("     Nombre   : Edwin")
+print("     Apellido : Ramos")
+print("     Edad     : 40")
+print("     Estatura : 1.72")
+print("     Grp sang : O")
+print("     Tip sang : +")
+print("     ¿Activo? : True")
 print()
