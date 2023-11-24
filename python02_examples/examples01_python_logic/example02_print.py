@@ -1,13 +1,13 @@
 # Descripción del Objetivo o Problema a resolver, organizado como Sistema [Entradas, Proceso y Salidas]
-print()
+print('\n' + ('-' * 50))
 print('Imprimir en pantalla')
-print()
+print(('-' * 50) + '\n')
 	
-# Declarar variables, constantes y/o arreglos.
+# Declarar constantes, variables y/o arreglos.
 	
 # Dimensionar arreglos.
 	
-# Iniciar variables, constantes y/o arreglos
+# Iniciar constantes, variables y/o arreglos
 	
 # Entrada de Datos: Pueden ser solicitados o no
 	
@@ -15,10 +15,13 @@ print()
 #          se usan las estructuras de control: Secuencial, condicional, repetición.
 	
 # Salida de Datos. Resultado(s).
+print("CALCULADORA")
+print()
 print("     Code            : 1")
 print("     name            : Albeiro")
+print("     operation       : Albeiro")
 print("     first_number    : 5")
 print("     second_number   : 9.3")
 print("     result          : 14.3")
 print("     return_to       : True")
-print()
+print('\n' + ('-' * 50) + '\n')
