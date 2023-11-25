@@ -1,15 +1,36 @@
+# Descripción del Objetivo o Problema a resolver, organizado como Sistema [Entradas, Proceso y Salidas]
+print('\n' + ('-' * 50))
+print('Conversión de tipos de datos')
+print(('-' * 50) + '\n')
+	
+# Declarar constantes, variables y/o arreglos asignando valores.
+
+# Dimensionar arreglos.
+	
+# Iniciar constantes, variables y/o arreglos
+	
+# Entrada de Datos: Pueden ser solicitados o no
+	
+# Proceso: Determinar los requerimientos y validaciones. Generalmente,	
+#          se usan las estructuras de control: Secuencial, condicional, repetición.
+
+# Salida de Datos. Resultado(s).
+
+_code = '1'
+name = 'Albeiro'
+operation = 'Suma'
+num_01 = 5
+num_02 = 9.3
+result = 14.3
+return_to = True
+
 # Variables dinámicas
-print('-' * 50)
 print('Variables dinámicas')
 print()
-variable = 'user_01'
-print("     variable = 'user_01'")
-print("     type(variable) =", type(variable))
-print()
-variable = 'Albeiro'
-print("     variable = 'Albeiro'")
-print("     type(variable) =", type(variable))
-print()
+variable = 'CALCULADORA'
+print("     variable = 'CALCULADORA'    ", type(variable))
+variable = '1'
+print("     variable = '1'              ", type(variable))
 variable = 'Ramos'
 print("     variable = 'Ramos'")
 print("     type(variable) =", type(variable))
@@ -110,5 +131,16 @@ print("     to_float = float(user_height)")
 print("     print(type(to_float)) =", type(to_float))
 print()
 
-print('-' * 50)
+"""
+print('\n' + ('-' * 50) + '\n')
+print(APP)
 print()
+print("     Code            :", _code)
+print("     name            :", name)
+print("     operation       :", operation)
+print("     first_number    :", num_01)
+print("     second_number   :", num_02)
+print("     result          :", result)
+print("     return_to       :", return_to)
+print('\n' + ('-' * 50) + '\n')
+"""

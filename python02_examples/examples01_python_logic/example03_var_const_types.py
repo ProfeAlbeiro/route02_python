@@ -4,13 +4,12 @@ print('Constantes, variables y tipos de datos')
 print(('-' * 50) + '\n')
 	
 # Declarar constantes, variables y/o arreglos asignando valores.
-APP = 'CALCULADORA'
 name = 'Albeiro'
 operation = 'Suma'
 num_01 = 5
 num_02 = 9.3
 result = 14.3
-to_return = True
+return_to = True
 
 # Constantes (En mayúscula sostenida)
 APP = "CALCULADORA"
@@ -34,12 +33,13 @@ __do_not_touch = 'something important'
 print("Tipos de datos")
 print()
 print("     APP = 'CALCULADORA' ", type(APP))
+print("     _code = '1'         ", type(name))
 print("     name = 'Albeiro'    ", type(name))
 print("     operation = 'Suma'  ", type(operation))
 print("     num_01 = 5          ", type(num_01))
 print("     num_02 = 9.3        ", type(num_02))
 print("     result = 14.3       ", type(result))
-print("     to_return = True    ", type(to_return))
+print("     return_to = True    ", type(return_to))
 
 print('\n' + ('-' * 50) + '\n')
 print(APP)
@@ -50,5 +50,5 @@ print("     operation       :", operation)
 print("     first_number    :", num_01)
 print("     second_number   :", num_02)
 print("     result          :", result)
-print("     return_to       :", to_return)
+print("     return_to       :", return_to)
 print('\n' + ('-' * 50) + '\n')
