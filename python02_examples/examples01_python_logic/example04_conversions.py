@@ -28,12 +28,12 @@ return_to = True
 print('Variables dinámicas')
 print()
 variable = 'CALCULADORA'
-print("     variable = 'CALCULADORA'    ", type(variable))
+print("     variable = ", variable, "   ", type(variable))
 variable = '1'
-print("     variable = '1'              ", type(variable))
-variable = 'Ramos'
-print("     variable = 'Ramos'")
-print("     type(variable) =", type(variable))
+print("     variable = ", variable, "       ", type(variable))
+variable = 'Albeiro'
+print("     variable = 'Albeiro'        ", type(variable))
+
 print()
 variable = 40
 print("     variable = 40")
