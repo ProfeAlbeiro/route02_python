@@ -1,7 +1,7 @@
 # Descripción del Objetivo o Problema a resolver, organizado como Sistema [Entradas, Proceso y Salidas]
-print('\n' + ('-' * 50))
+print('\n' + ('-' * 60))
 print('Identificadores, constantes, variables y tipos de datos')
-print(('-' * 50) + '\n')
+print(('-' * 60) + '\n')
 	
 # Declarar constantes, variables y/o arreglos asignando valores.
 name = 'Albeiro'
@@ -41,7 +41,7 @@ print("     num_02 = 9.3        ", type(num_02))
 print("     result = 14.3       ", type(result))
 print("     return_to = True    ", type(return_to))
 
-print('\n' + ('-' * 50) + '\n')
+print('\n' + ('-' * 60) + '\n')
 print(APP)
 print()
 print("     Code            :", _code)
