@@ -1,10 +1,6 @@
 # Descripción del Objetivo o Problema a resolver, organizado como Sistema [Entradas, Proceso y Salidas]
 	
-# Declarar constantes, variables, y/o arreglos.
-	
-# Dimensionar arreglos.
-	
-# Iniciar constantes, variables, y/o arreglos
+# Declarar constantes, variables y/o dimensionar arreglos asignando valores.
 	
 # Entrada de Datos: Pueden ser solicitados o no
 	

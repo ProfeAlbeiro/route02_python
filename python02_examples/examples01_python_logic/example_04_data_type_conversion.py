@@ -1,21 +1,10 @@
 # Descripción del Objetivo o Problema a resolver, organizado como Sistema [Entradas, Proceso y Salidas]
-print('\n' + ('-' * 50))
-print('Conversión de tipos de datos')
-print(('-' * 50) + '\n')
+print('\n' + ('-' * 60))
+print('Identificadores, constantes, variables y tipos de datos')
+print(('-' * 60) + '\n')
 	
-# Declarar constantes, variables y/o arreglos asignando valores.
-
-# Dimensionar arreglos.
-	
-# Iniciar constantes, variables y/o arreglos
-	
-# Entrada de Datos: Pueden ser solicitados o no
-	
-# Proceso: Determinar los requerimientos y validaciones. Generalmente,	
-#          se usan las estructuras de control: Secuencial, condicional, repetición.
-
-# Salida de Datos. Resultado(s).
-
+# Declarar constantes, variables y/o dimensionar arreglos asignando valores.
+APP = "CALCULADORA"
 _code = '1'
 name = 'Albeiro'
 operation = 'Suma'
@@ -24,40 +13,35 @@ num_02 = 9.3
 result = 14.3
 return_to = True
 
+# Entrada de Datos: Pueden ser solicitados o no
+	
+# Proceso: Determinar los requerimientos y validaciones. Generalmente,	
+#          se usan las estructuras de control: Secuencial, condicional, repetición.
+
+# Salida de Datos: Resultado(s). Pueden ser parte del proceso.
+
 # Variables dinámicas
 print('Variables dinámicas')
 print()
 variable = 'CALCULADORA'
-print("     variable = ", variable, "   ", type(variable))
+print("     variable = 'CALCULADORA'", "    ", type(variable))
 variable = '1'
-print("     variable = ", variable, "       ", type(variable))
+print("     variable = '1'", "              ", type(variable))
 variable = 'Albeiro'
-print("     variable = 'Albeiro'        ", type(variable))
-
-print()
-variable = 40
-print("     variable = 40")
-print("     type(variable) =", type(variable))
-print()
-variable = 1.72
-print("     variable = 1.72")
-print("     type(variable) =", type(variable))
-print()
-variable = 'O'
-print("     variable = 'O'")
-print("     type(variable) =", type(variable))
-print()
-variable = '+'
-print("     variable = '+'")
-print("     type(variable) =", type(variable))
-print()
+print("     variable = 'Albeiro'", "        ", type(variable))
+variable = 'Suma'
+print("     variable = 'Suma'", "           ", type(variable))
+variable = 5
+print("     variable = 5", "                ", type(variable))
+variable = 9.3
+print("     variable = 9.3", "              ", type(variable))
+variable = 14.3
+print("     variable = 14.3", "             ", type(variable))
 variable = True
-print("     variable = False")
-print("     type(variable) =", type(variable))
-print()
+print("     variable = True", "             ", type(variable))
+print('\n' + ('-' * 60))
 
 # Convertir a cadena: str()
-print('-' * 50)
 print("Convertir a cadena: str()")
 print()
 user_age = 40
@@ -129,18 +113,16 @@ print("     print(type(user_height)) =", type(user_height))
 to_float = float(user_height)
 print("     to_float = float(user_height)")
 print("     print(type(to_float)) =", type(to_float))
-print()
 
-"""
-print('\n' + ('-' * 50) + '\n')
+# PROYECTO DE EJEMPLO: CALCULADORA
+print('\n\n' + ('-' * 60) + '\n')
 print(APP)
 print()
-print("     Code            :", _code)
+print("     code            :", _code)
 print("     name            :", name)
 print("     operation       :", operation)
 print("     first_number    :", num_01)
 print("     second_number   :", num_02)
 print("     result          :", result)
 print("     return_to       :", return_to)
-print('\n' + ('-' * 50) + '\n')
-"""
+print('\n' + ('-' * 60) + '\n')
