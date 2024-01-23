@@ -1,17 +1,15 @@
 # Descripción del Objetivo o Problema a resolver, organizado como Sistema [Entradas, Proceso y Salidas]
-print('\n' + ('-' * 60))
+print('\n' + ('-' * 100))
 print('Conversiones')
-print(('-' * 60) + '\n')
+print(('-' * 100) + '\n')
 	
 # Declarar constantes, variables y/o dimensionar arreglos asignando valores.
-APP = "CALCULADORA"
-_code = '1'
+PI = 3.1416
 name = 'Albeiro'
-operation = 'Suma'
 num_01 = 5
 num_02 = 9.3
-result = 14.3
-return_to = True
+active = True
+_code = '001'
 
 # Entrada de Datos: Pueden ser solicitados o no
 	
@@ -23,7 +21,7 @@ return_to = True
 # Variables dinámicas
 print('Variables dinámicas')
 print()
-variable = 'CALCULADORA'
+variable = '3.1416'
 print("     variable = 'CALCULADORA'", "    ", type(variable))
 variable = '1'
 print("     variable = '1'", "              ", type(variable))
@@ -39,7 +37,7 @@ variable = 14.3
 print("     variable = 14.3", "             ", type(variable))
 variable = True
 print("     variable = True", "             ", type(variable))
-print('\n' + ('-' * 60))
+print('\n' + ('-' * 100))
 
 # Convertir a cadena: str()
 print("Convertir a cadena: str()")
@@ -115,7 +113,7 @@ print("     to_float = float(user_height)")
 print("     print(type(to_float)) =", type(to_float))
 
 # PROYECTO DE EJEMPLO: CALCULADORA
-print('\n\n' + ('-' * 60) + '\n')
+print('\n\n' + ('-' * 100) + '\n')
 print(APP)
 print()
 print("     code            :", _code)
@@ -125,4 +123,19 @@ print("     first_number    :", num_01)
 print("     second_number   :", num_02)
 print("     result          :", result)
 print("     return_to       :", return_to)
-print('\n' + ('-' * 60) + '\n')
+print('\n' + ('-' * 100) + '\n')
+
+
+# ----------------------------------------------------------------------------------------------------------------------------
+
+# Tipos de datos    :   type()
+print('Tipos de datos    :   type()')
+print()
+print('     PI                  :   ', PI, '                 ', type(PI), '     Constante')
+print('     _code               :   ', _code,'                    ', type(_code), '       Variable privada')
+print('     __do_not_touch      :   ', __do_not_touch, '    ', type(__do_not_touch), '       Variable super privada')
+print('     name                :   ', name, '                ', type(name), '       Variable Cadena')
+print('     num_01              :   ', num_01, '                      ',  type(num_01), '       Variable Entera')
+print('     num_02              :   ', num_02, '                    ', type(num_02), '     Variable Decimal')
+print('     active              :   ', active, '                   ', type(active), '      Variable Booleana')
+print('\n' + ('-' * 100))
