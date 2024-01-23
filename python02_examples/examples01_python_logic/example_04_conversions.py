@@ -1,6 +1,6 @@
 # Descripción del Objetivo o Problema a resolver, organizado como Sistema [Entradas, Proceso y Salidas]
 print('\n' + ('-' * 60))
-print('Identificadores, constantes, variables y tipos de datos')
+print('Conversiones')
 print(('-' * 60) + '\n')
 	
 # Declarar constantes, variables y/o dimensionar arreglos asignando valores.
