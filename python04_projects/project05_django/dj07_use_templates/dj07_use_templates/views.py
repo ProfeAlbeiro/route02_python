@@ -1,14 +1,4 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
-def saludo(request):
-    return HttpResponse("Hola Mundo")
-
-def despedida(request):
-    return HttpResponse("Hasta pronto")
-
-def adulto(request, edad):
-    if edad >= 18:
-        return HttpResponse("Eres mayor de edad")
-    else:
-        return HttpResponse("No eres mayor de edad")
-
+def simple(request):
+    return render(request, 'simple.html', {})
