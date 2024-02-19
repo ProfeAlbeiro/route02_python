@@ -1,1 +1,18 @@
 {% extends "./layouts/base.html" %}
+{% load static %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'css/styles_pages.css' %}">
+{% endblock %}
+
+{% block title %}
+    Ejemplo
+{% endblock %}
+
+{% block content %}
+    <h1>Ejemplo</h1>
+{% endblock %}
+
+{% block scripts %}
+    <script src="{% static 'js/scripts_pages.js' %}"></script>
+{% endblock %}
