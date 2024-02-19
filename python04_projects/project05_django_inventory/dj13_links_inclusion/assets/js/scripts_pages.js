@@ -1,0 +1,1 @@
+alert("Soy otra página");

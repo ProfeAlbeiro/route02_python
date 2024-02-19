@@ -1,0 +1,13 @@
+{% load static %}
+
+<nav>
+    <div class="logo">
+        <img src="{% static 'img/logo-django.png' %}" alt="logo-django">
+    </div>
+    <ul>
+        <li><a href="{% url 'index' %}">Inicio</a></li>
+        <li><a href="{% url 'herencia' %}">Herencia</a></li>
+        <li><a href="{% url 'ejemplo' %}">Ejemplo</a></li>
+        <li><a href="{% url 'otra' %}">Otra</a></li>
+    </ul>
+</nav>
