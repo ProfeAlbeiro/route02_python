@@ -10,13 +10,16 @@
     <title>{% block title %}{% endblock  %}</title>
 </head>
 <body>
-    <header>
-        {% include 'layouts/partials/menu.html' %}
-    </header>
-    <main>
-        {% block content %}{% endblock %}
-    </main>
-    {% include 'layouts/partials/footer.html' %}
-    {% block scripts %}{% endblock  %}
+    <div class="contenedor">        
+        <header>
+            {% include 'layouts/partials/menu.html' %}
+        </header>
+        <main>
+            {% block content %}{% endblock %}            
+        </main>
+        {% include 'layouts/partials/footer.html' %}        
+    </div>
+    <script src="{% static 'js/scripts.js' %}"></script>
+    {% block scripts %}{% endblock %}
 </body>
 </html>
