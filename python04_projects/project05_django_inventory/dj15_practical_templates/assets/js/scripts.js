@@ -1,1 +1,1 @@
-alert('Scripts personales');
+// alert('Scripts personales');
