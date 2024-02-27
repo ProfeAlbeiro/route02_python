@@ -1,5 +1,5 @@
 """
-WSGI config for dj18_delegation__routes project.
+WSGI config for dj18_delegation_routes project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dj18_delegation__routes.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dj18_delegation_routes.settings')
 
 application = get_wsgi_application()
