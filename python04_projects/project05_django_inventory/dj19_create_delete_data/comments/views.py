@@ -6,6 +6,13 @@ def test(request):
     return HttpResponse("Funciona correctamente")
 
 def create(request):
-    comment = Comment(name="Juanjo", score=5, comment="Este es un comentario")
-    comment.save()
+    # comment = Comment(name="Juanjo", score=5, comment="Este es un comentario")
+    # comment.save()
+    comment = Comment.objects.create(name="Alex")
     return HttpResponse("Ruta para la creación de modelos")
+
+def delete(request):
+    # comment = Comment.objects.get(id=1)
+    # comment.delete()
+    Comment.objects.filter(id=3).delete()
+    return HttpResponse("Ruta para probar los borrados")
