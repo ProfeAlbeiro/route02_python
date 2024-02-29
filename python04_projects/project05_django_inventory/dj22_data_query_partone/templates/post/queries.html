@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% comment %} Obteniendo 5 elementos, saltando los 5 primeros {% endcomment %}
+    <h3>Obteniendo 10 elementos, saltando los 5 primeros</h3>
+    <ul>
+        {% for offset in offsets %}
+        <li>{{ offset.email }}</li>
+        {% endfor %}
+    </ul>    
+    
+    {% comment %} Obteniendo los 10 primeros elementos {% endcomment %}
+    <h3>Obteniendo los 10 primeros elementos</h3>
+    <ul>
+        {% for limit in limits %}
+        <li>{{ limit.email }}</li>
+        {% endfor %}
+    </ul>    
+    
+    {% comment %} Obteniendo un único elemento (Ejemplo, id) {% endcomment %}
+    <h3>Obteniendo un único elemento</h3>
+    <p>{{ author.name }} ({{ author.email }})</p>    
+
+    {% comment %} Datos que cumplan una condición {% endcomment %}
+    <h3>Buscando autor donde email = laurenhicks@example.net</h3>
+    <ul>
+        {% for elm in filtered %}
+        <li>{{ elm.name }} ({{ elm.email }})</li>
+        {% endfor %}
+    </ul>
+
+    {% comment %} Todos los datos  {% endcomment %}
+    <h3>Todos los autores</h3>
+    <ul>
+        {% for author in authors %}
+        <li>{{ author.name }} ({{ author.email }})</li>
+        {% endfor %}
+    </ul>
+    <h3>Total de autores: {{ authors|length }} </h3>
+</body>
+</html>
